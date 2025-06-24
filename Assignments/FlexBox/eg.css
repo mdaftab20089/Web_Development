@@ -1,0 +1,32 @@
+#container{
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+    border: 2px solid rgb(91, 3, 91);
+    background-color: azure;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+#container div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    transition: 2s ease-in-out;
+}
+
+#red:hover{
+    flex-grow: 1;
+
+}
+
+

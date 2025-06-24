@@ -1,0 +1,21 @@
+html,body{
+    background-color: wheat;
+}
+h1,h3,h4,p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,255,0);
+}
+button{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+p{
+    line-height: 30px;
+}

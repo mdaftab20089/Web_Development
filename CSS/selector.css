@@ -1,0 +1,58 @@
+     * {
+       color: rgb(220, 191, 7);
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   #login{
+    color: aqua;
+   }
+   #signup{
+      color: black;
+   }
+   
+   .follow{
+    background-color: bisque;
+   }
+   .upvote{
+    color: brown;
+   }
+   
+   div a{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   }
+   p a{
+    color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   }
+
+   p+h3{
+    text-decoration: blue underline;
+   }
+
+   div>input{
+    background-color: rgb(239, 239, 129);
+   }
+
+   /* h1::first-letter{
+      color: rgb(12, 12, 12);
+      
+   } */
+     h1::first-line{
+      color: rgb(12, 12, 12);
+      
+   }
+   .aftab:hover{
+      text-decoration: none;
+      color: rgb(0, 13, 255);
+   }
+   /* .aftab:nth-of-type(n){
+      background-color: aqua;
+   } */
+
+   .aftab::selection{
+      background-color: gold;
+   }
+

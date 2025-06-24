@@ -1,0 +1,8 @@
+button:hover {
+       background-color: red;
+       color: white;
+}
+.follow:hover{
+    background-color: brown;
+    text-decoration: none;
+}

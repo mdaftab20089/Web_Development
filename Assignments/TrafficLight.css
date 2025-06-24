@@ -1,0 +1,46 @@
+/* #outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin:200px;
+}
+
+#red{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    margin:auto;
+    margin-top: 5px;
+    
+}
+
+#yellow{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    margin:auto;
+    margin-top: 5px;
+}
+
+#green{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: green;    
+    margin:auto;
+    margin-top: 5px;
+} */
+
+div{
+    height:200px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: 20px;
+    display: inline-block;
+    border: 2px solid black;
+}

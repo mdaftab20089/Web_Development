@@ -1,0 +1,34 @@
+.container{
+    height: 602px;
+    width: 602px;
+    margin: 0 auto;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(243, 231, 178);
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px ;
+    grid-template-columns: auto auto auto; */
+    grid-template-rows: repeat(3 ,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    /* justify-items: center;
+    align-items: center;   /*middle me laane ke liye */
+    place-items: end;
+}
+
+.item{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(43, 204, 113);
+    text-align: center;
+    
+}
+
+/* #id1{
+    grid-column: 1/span 2;
+} */
+/* } #id2{
+    
+    grid-row: 1/span 2;
+} */

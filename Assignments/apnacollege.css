@@ -1,0 +1,9 @@
+h1{
+    font-family: league-spartan;
+    color: pink;
+    text-align: center;
+    text-decoration: green double underline;
+    text-size-adjust: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
