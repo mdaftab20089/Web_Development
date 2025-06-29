@@ -1,0 +1,5 @@
+.card-img-top:hover{
+    transition-duration: 1s;
+    transform: scale(1.01);
+    box-shadow: 2px 2px 2px black;
+}
