@@ -1,0 +1,163 @@
+body {
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+   background-color: black;
+   color: white;
+   overflow: auto;
+  
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+   
+}
+.sidebar{
+    background-color:  black;
+    width: 17.5rem;
+    margin-right: 0.5rem;
+}
+.main-content{
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      overflow: auto;
+}
+.music-player{
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+}
+a{
+    text-decoration: none;
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    margin-left: 1rem;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: white;
+}
+.nav-option:hover{
+    line-height: 2.5rem;
+    opacity: 2;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0.75rem;
+}
+
+.lib-options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+
+.icons i:hover{
+    opacity: 2;
+}
+
+.box{
+    height: 133.33px;
+    background-color: #1f1f1f;
+    margin: 10px 10px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding: 16px 20px;
+    border-radius: 1rem;
+}
+.box .box-para1{
+    height: 1.375rem;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    
+}
+.box .box-para2{
+    height: 1.375rem;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #ffff;
+    
+    
+}
+
+.badge{
+    background-color: #ffff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    /* height: 2rem; */
+    width: fit-content;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  z-index: 1000; 
+}
+
+.sticky-nav-icon img{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+  left: 10px;
+}
+.sticky-nav-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+
